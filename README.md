@@ -8,7 +8,7 @@ This project utilizes Redux to efficiently manage state and perform necessary op
 
 ### Demo
 
-Explore the demo of this project: https://redux-pricecard.netlify.app
+Explore the demo of this project:  https://reduxpricecart.netlify.app
 
 ## Features
 
