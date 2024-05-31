@@ -1,0 +1,307 @@
+.cart-main{
+     /* border:1px solid blue ; */
+ }
+ .cart-rowDiv{
+     /* border:1px solid red; */
+     /* background-color: antiquewhite; */
+ }
+ .cart-colDiv{
+     /* border: 1px solid black; */
+     width: 700px !important;
+     height: 460px !important; 
+      margin: auto;
+     /* background-color: rgb(228, 255, 121) !important; */
+     padding: 27px 37px !important ;
+ }
+ 
+ .cart-remove{
+     position: absolute;
+     right: 15px;
+     bottom: 60px;
+     color: orange !important;
+     background-color: navajowhite !important;
+     border: none;
+ }
+ 
+ 
+ 
+ /* "part one..........................,........................." */
+ .cart-part1{
+     /* border: 2px solid rgb(230, 13, 180); */
+     height: 70% !important;
+     width: 100% !important;
+     /* display: flex;
+     justify-content: space-between;
+     align-items: center; */
+ 
+ }
+ .cart-lf{
+    /* background-color: rgb(163, 78, 92); */
+ 
+ }
+ 
+ .cart-lf-imgDiv{
+     /* border: 2px solid yellow; */
+     perspective: 1000px;
+     width: 36% !important;
+     /* transform: rotateY(38deg) !important; */
+ }
+ .img-thumbnail{
+     object-fit: cover;
+ }
+ 
+ .imCart{
+    
+ }
+ .cart-lt-text{
+     font-size: 12px;
+ }
+ .cart-t1{
+     font-size: 14px;
+     font-weight: 600;
+     color: cadetblue;
+ }
+ .cart-lf-textDiv{
+ 
+     /* border: 2px solid pink; */
+ 
+     max-height:auto; /* Set a max-height if you want to limit the visible height */
+     overflow-y: auto;
+     scrollbar-width: thin; /* Firefox */
+     scrollbar-color: transparent transparent; 
+ }
+ 
+ 
+ .cart-lf-textDiv::-webkit-scrollbar {
+     width: 6px;
+   }
+   
+   .cart-lf-textDiv::-webkit-scrollbar-thumb {
+     background-color: transparent;
+     border-radius: 3px;
+   }
+ 
+ .cart-rt{
+     /* background-color: rgb(169, 103, 160); */
+  
+ position: relative;
+ 
+  }
+ .cart-select{
+     /* border: 1px solid black; */
+     width: 70% !important;
+     height: 30px;
+     position: absolute;
+     top:20px;
+     right: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ 
+ 
+ }
+ 
+ .selDiv{
+     width: 40% !important;
+     /* border: 1px solid blue !important; */
+     height: 100%;
+ }
+ .sel{
+     width: 100%;
+     height: 100%;
+     border: none;
+     color: orange;
+ }
+ 
+  /* "part 2........................................." */
+ 
+ .cart-part2{
+     /* border: 1px solid green; */
+     width: 100% !important;
+     height: 21% !important;
+     display: flex !important;
+     flex-direction:column !important;
+ }
+ .cart-one{
+     font-size: 12px;
+     padding: 0px !important;
+     margin: 0% !important;
+     height: auto;
+ }
+ .cart-two{
+     font-size: 12px;
+     padding: 0px !important;
+     margin: 0% !important;
+     height: auto;
+ }
+ .cart-three{
+ font-weight: 500;
+ font-size: 12px;
+ }
+ .cart-four{
+ color: orange;
+ font-weight: 500;
+ font-size: 12px;
+ }
+ 
+ 
+ 
+ 
+  /* "part 3.................." */
+ 
+  .cart-part3{
+     /* border: 1px solid black; */
+     width: 100% !important;
+     height: 21% !important;
+     margin-top: 10px !important;
+ }
+ 
+ 
+ .hr1{
+     width: 100%;
+     /* padding: 0px !important;
+     margin: 0% !important; */
+ }
+ .hr2{
+     width: 100%;
+     /* padding: 0px !important;
+     margin: 15px 0px !important; */
+ }
+ 
+ 
+ 
+ 
+ .total{
+     width: 100%;
+     background: linear-gradient(to right, #00ff87, yellow);
+     margin: 20px 0px;
+     
+     display: flex !important;
+     align-items: center !important;
+     justify-content: space-evenly !important;
+ 
+ }
+ .cart-header-total{
+     font-weight: 600;
+     color:white;
+ }
+ .cart-header-totalAmount{
+     /* border: 1px solid red; */
+     width:auto !important;
+     display: flex !important;
+     align-items: center !important;
+     justify-content: space-evenly !important;
+     font-weight: 600;
+     /* color: rgb(12, 214, 22); */
+     color: rgb(13, 0, 255);
+ 
+ }
+ .sp{
+     padding: 0px 14px 0px 0px ;
+ }
+ .x{
+     color: #FFFFFF;
+     font-size: 16px !important;
+ }
+ .y{
+     color: rgb(43, 0, 255);
+     font-weight: 700;
+     font-size: 16px!important; ;
+ }
+ 
+ .cart-ship{
+     font-weight: 600;
+     color: rgb(255, 47, 50);
+     margin: 0px !important;
+     padding: 0px !important;
+ }
+ .cart-ship2{
+     font-weight: 600;
+     color: greenyellow;
+ }
+ 
+ 
+ 
+ 
+ /* "media queries   .............................................. ........................." */
+ 
+ @media all and (min-width:425px) and (max-width:768px){
+ .cart-part1{
+     /* background-color: black; */
+     display: flex !important;
+ }
+ 
+ .cart-select{
+     /* border: 1px solid black; */
+     width: 80% !important;
+     /* background-color: aqua !important; */
+     height: 30px;
+     position: absolute;
+     top:20px;
+     right: 10px;
+ 
+ 
+ }
+ .cart-lf{
+     width: 70% !important;
+     /* background-color: rgb(109, 172, 227); */
+ }
+ 
+ .cart-rt{
+     width: 30% !important;
+     /* background-color: blueviolet; */
+ }
+ .cart-select{
+     width: 90% !important;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ 
+ }
+ .cart-price{
+     font-size: 12px;
+ }
+ .sel{
+     text-decoration: none;
+     /* background-image: red; */
+     width: 100%;
+     height: 100%;
+     border: none;
+     color: orange;
+ }
+ 
+ }
+ 
+ @media all and (min-width:300px) and (max-width:425px){
+     .cart-part1{
+         /* background-color: black; */
+ 
+     }
+     
+     .cart-lf{
+         width: 70% !important;
+         /* background-color: rgb(109, 172, 227) !important; */
+     }
+     
+     .cart-rt{
+         width: 30% !important;
+         /* background-color: blueviolet !important; */
+     }
+     .cart-select{
+         width: 90% !important;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+ 
+     }
+     .cart-price{
+         font-size: 12px;
+     }
+     .sel{
+         /* background-color: black !important; */
+         width: 100%;
+     height: 100%;
+     border: none;
+     color: orange;
+     }
+ }
